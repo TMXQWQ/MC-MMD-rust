@@ -14,7 +14,7 @@ env:
 jobs:
   # ==================== Rust 原生库构建 ====================
   build-rust-windows-x64:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
